@@ -15,6 +15,8 @@ function App() {
       <CssBaseline />
       <Header/>
       <BasicCard/>
+      <BasicCard/>
+      <BasicCard/>
       <Footer/>
       </ThemeProvider>
   );
