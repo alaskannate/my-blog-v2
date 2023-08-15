@@ -17,6 +17,7 @@ function App() {
       <BasicCard/>
       <BasicCard/>
       <BasicCard/>
+      <BasicCard/>
       <Footer/>
       </ThemeProvider>
   );
