@@ -1,9 +1,15 @@
 import React from 'react'; 
+import BasicCard from '../Card';
 
 export default function PageBody() {
     return (
     <div className="body-box">
-    <h1>Body</h1>
+    <BasicCard/>
+    <BasicCard/>
+    <BasicCard/>
+    <BasicCard/>
+    <BasicCard/>
+    <BasicCard/>
     </div>
     );
   }

@@ -6,8 +6,8 @@ export default function Footer() {
         return date.getFullYear()
     }
   return (
-  <div className="footer-box">
-  <p>Copywrite {currentYear()} </p>
-  </div>
+    <footer>
+    <p>Copywrite {currentYear()} </p>
+    </footer>
    );
 }

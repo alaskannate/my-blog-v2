@@ -2,7 +2,7 @@ import React from "react";
 import { ThemeProvider, CssBaseline } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import Header from "./components/layout/Header";
-import BasicCard from "./components/Card";
+import PageBody from "./components/layout/PageBody";
 import Footer from "./components/layout/Footer";
 
 
@@ -14,10 +14,7 @@ function App() {
       <ThemeProvider theme={theme}>
       <CssBaseline />
       <Header/>
-      <BasicCard/>
-      <BasicCard/>
-      <BasicCard/>
-      <BasicCard/>
+      <PageBody/>
       <Footer/>
       </ThemeProvider>
   );

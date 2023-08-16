@@ -3,24 +3,53 @@ html {
   box-sizing: border-box;
 }
 
+.root{ 
+  display:flex; 
+  flex-direction: column;
+}
+
 h1 {
   margin: 0;
 }
 
 .header-box {
   background-color:#f5b21a;
+  box-shadow: 0 2px 5px #ccc;
 }
 
 .header-box h1 {
   display: flex;
   padding: 10px;
+
+}
+.body-box {
+margin: 3rem 3rem;
+display:flex;
+justify-content: center;
+flex-wrap: wrap;
+height:auto;
 }
 
-.footer-box {
-  background-color: #777;
+.card-box {
+  background-color:#ccc;
+  text-align: center;
+  border: 1px solid;
+  width:300px;
+  height:200px;
+  margin: 1.6rem;
+  padding:1rem;
+  box-shadow: 0 2px 5px #ccc;
+  border-radius: 5px;
 }
 
-.footer-box p {
+
+footer  {
+  position:absolute;
+  width:100%;
+}
+
+footer p {
+  color:#ccc;
   display:flex;
   justify-content: space-around;
 }
