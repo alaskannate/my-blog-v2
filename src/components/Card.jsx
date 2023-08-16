@@ -1,13 +1,11 @@
 import * as React from 'react';
+import CardDetails from './CardDetails'
 
 
-export default function BasicCard() {
+export default function Card(props) {
   return (
     <div className="card-box">
-    <div className="card-content">
-      <h1>The title!</h1>
-      <p>Some Content</p>
-    </div> 
+    <CardDetails title={props.title} content ={props.content} userName={props.userName} />
     </div>
   );
 }

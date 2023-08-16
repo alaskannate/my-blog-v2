@@ -13,13 +13,16 @@ h1 {
 }
 
 .header-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   background-color:#f5b21a;
   box-shadow: 0 2px 5px #ccc;
 }
 
-.header-box h1 {
-  display: flex;
-  padding: 10px;
+.header-box h1, p {
+  margin:5px 0 5px 1rem;
+  padding:10px 0 5px 1rem;
 
 }
 .body-box {
@@ -27,7 +30,6 @@ margin: 3rem 3rem;
 display:flex;
 justify-content: center;
 flex-wrap: wrap;
-height:auto;
 }
 
 .card-box {

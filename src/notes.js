@@ -1,28 +1,27 @@
 const notes = [
     {
       id: 1,
-      title: "Beyonce",
+      title: "title 1",
       content:"hello",
-      user:"steve 1"
+      userName:"steve 1"
 
       
     },
     {
       id: 2,
-      title: "Jack Bauer",
+      title: "title 2",
       content:"world",
-      user:"steve 2"
+      userName:"steve 2"
       
     },
     {
       id: 3,
-      title: "Chuck Norris",
+      title: "title 3",
       content:"i love to code",
-      user:"steve 3"
+      userName:"steve 3"
     
 
     }
   ];
   
-
   export default notes;
