@@ -16,7 +16,7 @@ const notes = [
     },
     {
       id: 3,
-      title: "title 3",
+      title: "title 3 ",
       content:"i love to code",
       userName:"steve 3"
     

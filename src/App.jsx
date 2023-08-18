@@ -9,6 +9,15 @@ import notes from "./notes"
 
 const theme = createTheme();
 
+function createCard(notes) {
+  return <Card 
+  id={notes.id}
+  key={notes.id}
+  title={notes.title}
+  content = {notes.content} 
+  userName = {notes.userName}
+   />
+}
 
 function App() {
     return (
@@ -16,21 +25,7 @@ function App() {
       <CssBaseline />
       <Header/>
       <div className="body-box">
-      <Card
-        title={notes[0].title}
-        content={notes[0].content}
-        userName={notes[0].userName}
-        />
-        <Card
-        title={notes[1].title}
-        content={notes[1].content}
-        userName={notes[1].userName}
-        />
-        <Card
-        title={notes[2].title}
-        content={notes[2].content}
-        userName={notes[2].userName}
-        />
+      {notes.map(createCard)}
       </div>
       <Footer/>
       </ThemeProvider>
