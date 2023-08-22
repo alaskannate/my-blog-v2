@@ -8,6 +8,43 @@ In the project directory, you can run:
 
 ### `npm start`
 
+### `file stucture`
+
+server/
+│
+├── config/        # Configuration files for the database, authentication, etc.
+│
+├── models/        # Mongoose models (e.g., User, Trade)
+│
+├── routes/        # Express routes grouped by functionality (e.g., userRoutes.js, tradeRoutes.js)
+│
+├── controllers/   # Logic for handling route requests
+│
+├── middlewares/   # Custom middlewares (e.g., authentication)
+│
+├── utils/         # Utility functions and helpers
+│
+├── app.js         # Main Express application file
+│
+└── server.js      # Entry point that starts the server
+
+
+
+
+── src/
+│   ├── components/      # Reusable components (e.g., Header, Footer)
+│   ├── containers/      # Container components that manage state and logic
+│   ├── views/           # Pages or screens in the app (e.g., Profile, Trade)
+│   ├── assets/          # Images, fonts, and other static files
+│   ├── utils/           # Utility functions and helpers
+│   ├── App.js           # Main App component
+│   └── index.js         # Entry point for the React app
+│
+├── public/          # Public assets like index.html
+└── package.json     # Dependencies and scripts for the client
+
+
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 

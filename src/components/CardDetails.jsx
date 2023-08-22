@@ -2,12 +2,12 @@ import React from "react";
 
 
 export default function CardContent(props){
+  const keepUnder100 = content => content.length > 100 ? content.substring(0, 250) + " read more..." : content;
+
     return(
         <div className="card-content">
-        <p>Card id:{props.id}</p>
-        <h1>{props.title}</h1>
-        <p>{props.content}</p>
-        <p>Note Created by: {props.userName}</p>
+        <h3>Q. {props.title}</h3>
+        <p><strong>A. </strong> {keepUnder100(props.content)}</p>
       </div> 
     );
 }
