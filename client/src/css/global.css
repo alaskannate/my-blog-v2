@@ -1,0 +1,28 @@
+
+
+
+.container {
+  text-align: center;
+}
+
+/* A Show case of componants */
+.functional-showcase {
+  text-align:center;
+  display: flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+
+}
+
+.bubble-sort {
+  width:250px;
+  height:40px;
+  margin-bottom: 20px;
+  /* margin-top: px; */
+}
+
+#bubble-sort-container h1 { 
+  margin: 0;
+}
